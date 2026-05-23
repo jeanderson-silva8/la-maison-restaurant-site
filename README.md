@@ -71,3 +71,32 @@ export default defineConfig([
   },
 ])
 ```
+
+## 🚀 Como Executar Localmente
+
+### Requisitos
+- Node.js 20+
+- npm 10+
+
+### Rodando
+
+1. Instale todas as dependências do restaurante (incluindo GSAP, Framer Motion e Zustand):
+   ```bash
+   npm install
+   ```
+
+2. Execute o servidor de desenvolvimento Vite localmente:
+   ```bash
+   npm run dev
+   ```
+
+Acesse `http://localhost:5173` em seu navegador para navegar pelo site do restaurante com todas as animações e interações ativas.
+
+### Build de Produção
+
+Para compilar o código TypeScript e gerar os arquivos otimizados para deploy:
+
+```bash
+npm run build      # compila TypeScript e roda vite build
+npm run preview    # visualiza localmente o build compilado
+```
